@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #282828;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+.titleText {
+    font-family: 'Playfair Display', serif; 
+    color: #FFFFFF;
+}
+p {font-size: 14px;}
+h2 {font-size: 36px;}
+h3 {font-size: 18px;}
+
+.line {
+    width: 160px;
+    height: 1px;
+    background: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.btn {
+    background: #998431;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: inline-block;
+}
+
+.header {
+    background-image: url("../images/img/headerbgc.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 0 50px 0;
+    
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__menu{
+    width: 100%;
+    margin-bottom: 61vh;
+}
+.menu__info {
+    width: 100%;
+    padding: 30px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.info__streat, .info__phone {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.menu__menubar {
+    width: 100%;
+}
+.munubar__links {
+   display: flex;
+   align-content: center;
+}
+.munubar__link{
+    display: block;
+    width: 100%;
+    max-width: 285px;
+    height: 47px;
+    text-align: center;
+    padding: 13px 0 13px 0;
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+}
+.munubar__link:first-child {
+    border-left: none;
+}
+.munubar__link:last-child {
+    border-right: none;
+}
+.munubar__link a:hover {
+    text-decoration: underline;
+}
+.header__btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header__btn:nth-child(1) {
+    margin-right: 30px;
+}
+
+.descWine {
+    width: 100%;
+    min-height: 855px;
+    background: #282828;
+    padding: 100px;
+}
+.descWine__box {
+    width: 100%;
+    min-height: 655px;
+    padding: 60px 10px;
+    border: solid 3px #C4C4C4;
+    text-align: center;
+    position: relative;
+}
+/* .descWine__box::before {
+    content: url("../images/img/formlLeft.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.descWine__box::after {
+    content: url("../images/img/formRight.png");
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+.descWine__line {
+    margin: 40px auto 40px auto;
+}
+.descWine__title, .discWine__text {
+    max-width: 736px;
+    margin: 0 auto;
+}
+.discWine__text {
+    margin-bottom: 50px;
+}
+
+.choiceWine {
+    width: 100%;
+    min-height: 1040px;
+    padding: 80px 0 80px 0;
+    background: #E6E3C4;
+}
+.choiceWine__box {
+    width: 100%;
+    min-height: 878px;
+    border-top: solid 1px #998431;
+    border-bottom: solid 1px #998431;
+    padding: 60px 0 60px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.choiceWine__info {
+    max-width: 445px;
+
+}
+.choiceWine__title {
+    margin: 30px 0 30px 0;
+    color: #282828;
+}
+.choiceWine__text {
+    margin: 30px 0 30px 0;
+    color: #282828;
+}
+.choiceWine__text:nth-child(1) {
+    margin: 0 0 30px 0;
+}
+
+.choiceWine__imgs { 
+    max-width: 540px;
+}
+.choiceWine__imgs-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.choiceWine__table {
+
+}
+.table__row {
+    display: flex;
+    border-bottom: 1px solid #282828;
+}
+.table__row:nth-last-child(1) {
+    border-bottom: none;
+}
+.table__cell-year {
+    font-size: 14px;
+    padding: 26px 24px 26px 24px;
+    color: #282828;
+}
+.table__cell-info {
+    padding: 5px 0 14px 30px;
+    border-left: 1px solid #282828; 
+}
+.table__title {
+    margin-bottom: 5px;
+    color: #282828;
+}
+.table__text {
+    color: #282828;
+}
+
+.noteAt {
+    width: 100%;
+    min-height: 650px;
+    background: #282828;
+    padding: 100px 5px 100px 5px;
+}
+.noteAt__box {
+    padding: 0 0 80px 0;
+    border: 3px solid #C4C4C4;
+    min-height: 538px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.noteAt__box::before {
+    content: url("../images/img/formlLeft.png");
+    position: absolute;
+    top: -75px;
+    left: -25px;
+}
+.noteAt__box::after {
+    content: url("../images/img/formRight.png");
+    position: absolute;
+    top: -65px;
+    right: -60px;
+}
+.noteAt__line {
+    margin: 40px auto;
+}
+.noteAt__header {
+    max-width: 490px;
+    margin: -30px auto 0 auto;
+    background: #282828;
+}
+.noteAt__text {
+    max-width: 540px;
+    margin: 0 auto 80px auto;
+}
+.noteAt__form {
+    max-width: 541px;
+    min-height: 200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form__up {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 40px 0;
+}
+.form_input {
+    max-width: 255px;
+    position: relative;
+    
+}
+.form_input input {
+    max-width: 255px;
+    width: 100%;
+    min-height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 0 5px 0 5px;
+}
+.form_input label {
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    font-size: 13px;
+    transition: 0.5s;
+    transform: translateY(-100%);
+}
+
+.form__down {
+    margin: 0 auto 50px auto;
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.form__btn {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 50px;
+    background: transparent;
+    outline: none;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.form__btn:hover {
+    background: #998431;
+}
+
+.footer {
+    background: #998431;
+    padding: 10px 0 10px 0;
+    min-height: 40px;
+    display: flex;
+}
+.footer___imgsLink {
+    margin: 0 auto;
+}
+.footer___imgLink {
+    margin: 0 10px;
+}
+
+@media (max-width: 1110px) {
+    .container {
+        padding: 0 10px;
+    }
+    .noteAt__box::before {
+        content: "";
+        
+    }
+    .noteAt__box::after {
+        content: "";
+    }
+    .noteAt {
+        padding: 50px 5px 50px 5px;
+    }
+}
+@media (max-width: 1010px) {
+    .choiceWine__info {
+        max-width: 100%;
+    }
+    .choiceWine__imgs {
+        display: none;
+    }
+    .choiceWine {
+        padding: 20px 0 20px 0;
+        min-height: 500px;
+    }
+    .choiceWine__box {
+        min-height: 500px;
+    }
+    .descWine {
+        padding: 30px;
+        min-height: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .noteAt__box {
+        border: none;
+    }
+    .descWine {
+        padding: 10px 0 ;
+    }
+    .descWine__box {
+        border: none;
+    }
+    .descWine__text {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 470px) {
+    .munubar__links {
+        flex-direction: column;
+    }
+    .munubar__link {
+        max-width: 100%;
+        margin-bottom: 10px; 
+    }
+    .munubar__link:first-child {
+        border-left: 1px solid #FFFFFF;
+    }
+    .munubar__link:last-child {
+        border-right: 1px solid #FFFFFF;
+    }
+    .header {
+        height: 100%;
+    }
+    .header__btns {
+        flex-direction: column;
+    }
+    .header__btn:nth-child(1) {
+        margin: 0 0 10px 0;
+    }
+    .header__btn {
+        text-align: center;
+        
+    }
+    .form__up {
+        flex-direction: column;
+    }
+    .form_input {
+        margin: 0 0 40px 0;
+        max-width: 100%;
+    }
+    .form_input input {
+        max-width: 100%;
+    }
+}
+@media (max-width: 350px) {
+    .menu__info {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
